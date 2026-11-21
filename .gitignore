@@ -1,0 +1,20 @@
+# Secrets: never commit these
+.env
+*.env
+application-local.properties
+
+# Backend (Maven build output)
+backend/target/
+
+# Frontend (Flutter build output)
+frontend/build/
+frontend/.dart_tool/
+
+# IDE and OS files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# Logs
+*.log
